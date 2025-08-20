@@ -1,0 +1,613 @@
+<header class="header">
+  <div class="header-content">
+    <!-- Logo -->
+    <img
+      src="https://images.assets-landingi.com/uc/e34dd985-8162-4e83-bc2c-071f754e0ef4/PMG.crop_348x85_77,35.preview.png"
+      alt="Dentakay Logo"
+      class="logo"
+    />
+    <!-- Desktop Navigation -->
+    <nav class="nav">
+      <a href="#treatments" class="nav-link">Treatments</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#doctors" class="nav-link">Doctors</a>
+    </nav>
+    <!-- CTA Button (Desktop Only) -->
+    <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta-button1">
+      Get Treatment Plan in Minutes
+    </a>
+    <!-- Hamburger Menu (Mobile Only) -->
+    <button class="hamburger mobile-only" onclick="toggleMenu()">☰</button>
+    <!-- Side Menu (Mobile Only) -->
+    <div class="side-menu" id="sideMenu">
+      <button class="close-menu" onclick="toggleMenu()">×</button>
+      <a href="#treatments" class="nav-link">Treatments</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#doctors" class="nav-link">Doctors</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="https://ozgeg99.github.io/dent-hero-video/lp-Background.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="hero-overlay"></div>
+  <h1>60% Savings on Dental Care</h1>
+  <p>Just Across the Border – in Tijuana</p>
+  <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta-button-2">Schedule Free Consultation</a>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section">
+  <h2 class="benefits-title">Why Dentakay?</h2>
+  <div class="benefits-container">
+    <!-- Benefit 1 -->
+    <div class="benefit-item">
+      <img
+        src="https://lp.dentakay.com/Tijuana%20LP/money.png"
+        alt="Medical Debt-Free"
+        class="benefit-icon"
+      />
+      <h3 class="benefit-header">Medical Debt-Free</h3>
+      <p class="benefit-description">
+        Affordable dental care without breaking the bank.
+        <b>Save up to 60%</b> on advanced treatments.
+      </p>
+    </div>
+    <!-- Benefit 2 -->
+    <div class="benefit-item">
+      <img
+        src="https://lp.dentakay.com/Tijuana%20LP/dentist_5717527.png"
+        alt="Convenient Location"
+        class="benefit-icon"
+      />
+      <h3 class="benefit-header">Convenient Location</h3>
+      <p class="benefit-description">
+        Located just <b>5 minutes from the San Diego border</b>, making access easy
+        and stress-free.
+      </p>
+    </div>
+    <!-- Benefit 3 -->
+    <div class="benefit-item">
+      <img
+        src="https://lp.dentakay.com/Tijuana%20LP/taxi-driver.png"
+        alt="VIP Border Pickup"
+        class="benefit-icon"
+      />
+      <h3 class="benefit-header">VIP Border Pickup</h3>
+      <p class="benefit-description">
+        Enjoy seamless travel with our complimentary <b>VIP border pick-up</b> service.
+      </p>
+    </div>
+    <!-- Benefit 4 -->
+    <div class="benefit-item">
+      <img
+        src="https://lp.dentakay.com/Tijuana%20LP/award.png"
+        alt="Renowned Quality"
+        class="benefit-icon"
+      />
+      <h3 class="benefit-header">Renowned Quality</h3>
+      <p class="benefit-description">
+        Get treated by <b>globally recognized dentists</b> using
+        <b>state-of-the-art technology.</b>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="insurance-info-section">
+  <!-- mobile-only title -->
+  <h3 class="mobile-title">Flexible Insurance Options</h3>
+
+  <div class="insurance-content">
+    <!-- Visual side -->
+    <div class="insurance-visual">
+      <img
+        src="https://images.assets-landingi.com/uc/9143ae66-a0d1-49df-85a4-00a9094670a7/insurence3122.png"
+        alt="Insurance Logos"
+      />
+    </div>
+
+    <!-- Text side -->
+    <div class="insurance-text">
+      <h3 class="desktop-title">Flexible Insurance Options</h3>
+
+      <p class="insurance-description">
+        We accept a wide range of U.S. insurance plans, including Aetna, Cigna,
+        Delta, MetLife, Blue Cross Blue Shield, and many more. Our goal is to
+        make high-quality dental care abroad simple, accessible, and
+        stress-free — whether you’re insured or not.
+      </p>
+
+      <ul class="insurance-highlights">
+        <li>New providers are being added regularly as part of our expanding network</li>
+        <li>
+          Uninsured? Our all-inclusive pricing often costs less than a U.S.
+          copay — no surprise fees, no compromise on care
+        </li>
+      </ul>
+
+      <p class="insurance-description">
+        From insurance support to full treatment planning, our team is here to
+        guide you every step of the way.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Banner Section -->
+
+  <section class="banner-animated">
+    <!-- Gallery Background: Wall of patient photos -->
+    <div class="gallery-background" id="gallery-background"></div>
+    <!-- Dark overlay for improved text readability -->
+    <div class="overlay"></div>
+    <!-- Banner Content -->
+    <div class="animated-content">
+      <h1>Join 57k+ Patients Worldwide!</h1>
+      <p>Trusted Dental Care. Save up to 60%.</p>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta-btn">Book Now</a>
+    </div>
+  </section>
+
+<!-- Media Highlight Section -->
+<section class="media-section">
+  <div class="media-container">
+    <!-- Right: Headline & Infinite Scroll -->
+    <div class="media-text">
+      <h2 class="media-headline">
+        THE MOST MENTIONED <br /><span class="highlight">DENTAL CLINIC</span> <br />
+        IN GLOBAL MEDIA
+      </h2>
+      <div class="media-scroll">
+        <div class="scroll-track">
+          <img
+            src="https://images.assets-landingi.com/uc/b7d643a8-40ed-40a8-afc9-e5d45e46f30b/CNNLogowine.crop_2410x1176_314,412.preview.png"
+            alt="CNN"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/de138d3a-5c39-4402-98df-6dcbe789e5ae/thetimes.png"
+            alt="The Times"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/deb215bc-1d90-438d-ad85-4e170511103c/themirror.png"
+            alt="The Mirror"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/2ab2a7d2-55f3-4093-9ec3-e2ace4c53eb2/dailymail.png"
+            alt="Daily Mail"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/ec695c87-32ad-4158-8856-f3252abcc1ff/images.png"
+            alt="Sky News"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/f4025e83-c016-40b5-8f6e-dfb18752feb2/Logo_TF1_Infosvg.png"
+            alt="TF1"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/b7d643a8-40ed-40a8-afc9-e5d45e46f30b/CNNLogowine.crop_2410x1176_314,412.preview.png"
+            alt="CNN"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/de138d3a-5c39-4402-98df-6dcbe789e5ae/thetimes.png"
+            alt="The Times"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/deb215bc-1d90-438d-ad85-4e170511103c/themirror.png"
+            alt="The Mirror"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/2ab2a7d2-55f3-4093-9ec3-e2ace4c53eb2/dailymail.png"
+            alt="Daily Mail"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/ec695c87-32ad-4158-8856-f3252abcc1ff/images.png"
+            alt="Sky News"
+            class="media-logo"
+          />
+          <img
+            src="https://images.assets-landingi.com/uc/f4025e83-c016-40b5-8f6e-dfb18752feb2/Logo_TF1_Infosvg.png"
+            alt="TF1"
+            class="media-logo"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Left: Video Embed -->
+    <div class="media-video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hnAtijPB1FI?si=4SBpXunqlTnNmi39"
+        title="CEO on TV"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</section>
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials-section">
+  <h2 class="testimonials-title">What Our Patients Say</h2>
+  <div class="testimonials-content">
+    <!-- Google Reviews on Left -->
+    <div class="reviews-section">
+      <script src="https://static.elfsight.com/platform/platform.js" async></script>
+      <div
+        class="elfsight-app-d12a4d3d-a18c-4e6a-9079-ccfbd404e415"
+        data-elfsight-app-lazy
+      ></div>
+    </div>
+    <!-- Video Carousel on Right -->
+    <div class="video-carousel">
+      <button class="video-carousel-prev">&#10094;</button>
+      <div class="carousel-wrapper">
+        <div class="video-carousel-track">
+          <!-- Only real slides (manual clones removed) -->
+          <!-- Video 1 -->
+          <div
+            class="video-slide"
+            data-video="https://www.youtube.com/embed/Bx5H6vGcBZ0"
+          >
+            <img
+              src="https://images.assets-landingi.com/uc/40f8ccda-3696-4038-b9d9-f184ee73788d/testimonial1.webp"
+              alt="Testimonial 1"
+            />
+          </div>
+          <!-- Video 2 -->
+          <div
+            class="video-slide"
+            data-video="https://www.youtube.com/embed/-rtnGxbCrMQ"
+          >
+            <img
+              src="https://images.assets-landingi.com/uc/6996daad-edfb-4b47-8cca-360c9d398b5e/testimonial2.webp"
+              alt="Testimonial 2"
+            />
+          </div>
+          <!-- Video 3 -->
+          <div
+            class="video-slide"
+            data-video="https://www.youtube.com/embed/2WGWQLiGG0g"
+          >
+            <img
+              src="https://images.assets-landingi.com/uc/afbda120-36d8-45bf-942c-502be860d7b7/testimonial3.webp"
+              alt="Testimonial 3"
+            />
+          </div>
+        </div>
+      </div>
+      <button class="video-carousel-next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+<!-- Video Lightbox Modal -->
+<div id="videoModal" class="video-modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<!-- Treatment Section Styled Elegantly -->
+<section id="treatments" class="treatments-carousel">
+  <h2 class="section-title">Explore Our Treatments</h2>
+  <div class="treatment-carousel-container">
+    <!-- Dental Implants -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/bfc485af-c4b3-4abc-b365-1d8cbda6475b/-/preview/248x320/-/format/auto/" alt="Dental Implants">
+      </div>
+      <div class="card-content">
+        <h2>Dental Implants</h2>
+        <p class="subtitle">Regain confidence with cutting-edge implant solutions.</p>
+        <ul>
+          <li>Natural and long-term results</li>
+          <li>Enhanced strength &amp; appearance</li>
+          <li>3D digital planning for precise placement</li>
+          <li>Custom crowns with natural finish</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Save 70% on Implants!</a>
+    </div>
+
+    <!-- Same Day Implants -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/e9550221-e8f3-4555-ab4f-4eb25baf71ea/-/preview/320x320/-/format/auto/" alt="Same Day Implants">
+      </div>
+      <div class="card-content">
+        <h2>Same Day Implants</h2>
+        <p class="subtitle">Get a fully restored smile in just one visit.</p>
+        <ul>
+          <li>Instant transformation with minimal downtime</li>
+          <li>Walk out with a brand-new smile</li>
+          <li>Secure fit ensures comfort &amp; stability</li>
+          <li>Designed for lasting quality &amp; appeal</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Limited Time – Act Now!</a>
+    </div>
+
+    <!-- Full Mouth Implants -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/da4a4440-68ad-4cfe-bea5-ece7297b6902/-/preview/300x250/-/format/auto/" alt="Full Mouth Implants">
+      </div>
+      <div class="card-content">
+        <h2>Full Mouth Implants</h2>
+        <p class="subtitle">Achieve a complete, lifelong smile restoration.</p>
+        <ul>
+          <li>Regain full function with one treatment</li>
+          <li>Eat &amp; smile confidently every day</li>
+          <li>Premium materials for durability &amp; aesthetics</li>
+          <li>Cutting-edge methods maximize comfort &amp; precision</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Restore &amp; Save Today!</a>
+    </div>
+
+    <!-- All-on-4 / All-on-6 -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/fd9ba2b7-89ab-47fd-b1ee-037346f69f7d/-/preview/320x289/-/format/auto/" alt="All-on-4 / All-on-6">
+      </div>
+      <div class="card-content">
+        <h2>All-on-4 / All-on-6</h2>
+        <p class="subtitle">Enjoy a full smile with fewer implants needed.</p>
+        <ul>
+          <li>Restore your entire arch with 4 or 6 implants</li>
+          <li>Affordable and life-changing solution</li>
+          <li>Stable, natural-looking results you can trust</li>
+          <li>Built for long-term strength &amp; reliability</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Save Big on All-on-4!</a>
+    </div>
+
+    <!-- Dental Crowns -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/a7f3f0ca-728d-4f6a-91f4-c1d7a87c517b/-/preview/219x320/-/format/auto/" alt="Dental Crowns">
+      </div>
+      <div class="card-content">
+        <h2>Dental Crowns</h2>
+        <p class="subtitle">Strengthen and beautify your teeth with ease.</p>
+        <ul>
+          <li>Restore &amp; protect with top-quality crowns</li>
+          <li>Ideal color &amp; shape for a natural look</li>
+          <li>Zirconium or porcelain ensure lasting results</li>
+          <li>Digitally crafted for precise fit</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Get Crowns at 70% Off!</a>
+    </div>
+
+    <!-- Smile Makeovers -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/5795f97e-9af5-4b36-ac89-b55d5fb360a8/-/crop/1018x695/0" alt="Smile Makeovers">
+      </div>
+      <div class="card-content">
+        <h2>Smile Makeovers</h2>
+        <p class="subtitle">Design your ideal smile!</p>
+        <ul>
+          <li>Veneers, whitening &amp; crowns tailored to you</li>
+          <li>Advanced digital planning for precision</li>
+          <li>Complete makeover that boost confidence</li>
+          <li>Comprehensive approach for a dazzling outcome</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Transform &amp; Save Now!</a>
+    </div>
+
+    <!-- Veneers -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://images.assets-landingi.com/uc/3458b9c4-dfe8-422b-b0bb-cd00515e0222/veneersfr.png" alt="Veneers">
+      </div>
+      <div class="card-content">
+        <h2>Veneers</h2>
+        <p class="subtitle">Elevate your look instantly with custom veneers.</p>
+        <ul>
+          <li>Fix gaps, stains &amp; misalignment seamlessly</li>
+          <li>Choose premium porcelain or composite solutions</li>
+          <li>Digitally designed for an ideal, comfortable fit</li>
+          <li>Achieve a brilliant, natural-looking finish</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Save Big on Veneers!</a>
+    </div>
+
+    <!-- Hollywood Smile -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/8666cf6f-3cad-4946-a5d1-8a39ac1a1480/-/preview/222x272/-/format/auto/" alt="Hollywood Smile">
+      </div>
+      <div class="card-content">
+        <h2>Hollywood Smile</h2>
+        <p class="subtitle">Create a red-carpet smile with expert cosmetic care.</p>
+        <ul>
+          <li>Combine veneers, whitening &amp; crowns for star power</li>
+          <li>High-quality materials yield a natural look</li>
+          <li>Digital smile design ensures precise results</li>
+          <li>Turn heads with a show-stopping smile</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Get Your Free Quote!</a>
+    </div>
+
+    <!-- Dental Bridges -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/1c6f2f04-71c6-413b-bb87-d7d67e2672eb/-/preview/312x260/-/format/auto/" alt="Dental Bridges">
+      </div>
+      <div class="card-content">
+        <h2>Dental Bridges</h2>
+        <p class="subtitle">Replace missing teeth seamlessly with tailored bridges.</p>
+        <ul>
+          <li>Custom-fitted for a natural, comfortable feel</li>
+          <li>Engineered with durable, top-grade materials</li>
+          <li>Digitally planned for accurate alignment</li>
+          <li>Enjoy restored function &amp; renewed confidence</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Limited Time – Act Now!</a>
+    </div>
+
+    <!-- Braces/Invisalign -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://cdn.lugc.link/62a15412-a044-42fc-b35e-a7ecac6934b1/-/preview/262x250/-/format/auto/" alt="Braces/Invisalign">
+      </div>
+      <div class="card-content">
+        <h2>Braces/Invisalign</h2>
+        <p class="subtitle">Straighten your teeth for a radiant, confident look.</p>
+        <ul>
+          <li>Choose between traditional braces or clear aligners</li>
+          <li>Invisalign offers discreet, comfortable treatment</li>
+          <li>Advanced tech speeds up your progress</li>
+          <li>Achieve ideal alignment faster than ever</li>
+        </ul>
+      </div>
+      <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta">Consult Now!</a>
+    </div>
+  </div>
+
+  <!-- Dot indicators -->
+  <div class="dot-indicators"></div>
+</section>
+<!-- Doctors Section -->
+<section id="doctors" class="doctors">
+  <h2>Meet Our Expert Dentists</h2>
+  <div class="doctors-wrapper">
+    <!-- Chief Doctor Section -->
+    <div class="chief-doctor">
+      <div class="chief-image">
+        <img src="https://lp.dentakay.com/Tijuana%20LP/g%C3%BClayhoca-1.png" alt="Dr. Gülay Akay">
+      </div>
+      <div class="chief-info">
+        <h3><strong>Dr. Gülay Akay</strong></h3>
+        <p>Chief Dentist | Expert in Cosmetic Dentistry</p>
+        <div class="ada-badge">
+          <img src="https://cdn.lugc.link/ac614ef3-5351-46a0-8169-b52003b50b0c/-/crop/419x147/0" alt="ADA Member">
+          <span>American Dental Association Member</span>
+        </div>
+      </div>
+    </div>
+    <!-- Updated Carousel Section -->
+    <div class="carousel-section">
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="carousel-item">
+              <img src="https://dentakay.com/themes/dentakay/assets/img/doctors/Dr-Hector-Aguiniga-Saldivar.webp" alt="Dr. Sergio Morales">
+              <h4>Dr. Héctor Aguiñiga Saldívar</h4>
+              <p>Endodontist Specialist</p>
+            </div>
+            <div class="carousel-item">
+              <img src="https://dentakay.com/themes/dentakay/assets/img/doctors/Dr-Cesar-Ponce.webp" alt="Dr. Larissa Acosta Gaxiola">
+              <h4>Dr. Cesar Ponce</h4>
+              <p>Dental Surgeon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="decorative-arrows">
+  <span class="arrow arrow-left">&#10094;</span>
+  <span class="arrow arrow-right">&#10095;</span>
+</div>
+      <!-- Progress Bar (absolutely positioned so it doesn't affect container height) -->
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Process Section -->
+<section class="process-section" id="processSection">
+  <h2 class="process-title">
+    Your Smile is Just a Short Trip Away
+  </h2>
+  <p class="process-subtitle">
+    A seamless journey to high-quality dental care, just minutes from the U.S.
+    border.
+  </p>
+  <div class="process-container">
+    <!-- Timeline (Icons & Steps) -->
+    <div class="process-timeline">
+      <div class="process-step" data-step="1">
+        <div class="icon-container">
+          <img
+            src="https://icons.assets-landingi.com/icon_58129d107405401ced8a9933969d924f04b9fc51.svg"
+            alt="Consultation"
+          />
+        </div>
+        <span class="step-label">Book Consultation</span>
+      </div>
+      <div class="process-step" data-step="2">
+        <div class="icon-container">
+          <img
+            src="https://icons.assets-landingi.com/icon_8f76224eefc6751af5df039bcd4616d2308401ff.svg"
+            alt="Treatment Plan"
+          />
+        </div>
+        <span class="step-label">Get Treatment Plan</span>
+      </div>
+      <div class="process-step" data-step="3">
+        <div class="icon-container">
+          <img
+            src="https://images.assets-landingi.com/uc/a997fcbe-d668-466a-88ac-8cd82170b14c/car.svg"
+            alt="Travel to Tijuana"
+          />
+        </div>
+        <span class="step-label">Travel to Tijuana</span>
+      </div>
+      <div class="process-step" data-step="4">
+        <div class="icon-container">
+          <img
+            src="https://images.assets-landingi.com/uc/c38125ea-f95d-4d7a-af66-1758b2622443/medicalicondentisticondentistryoralhygienehealthalbanyvillagedentalclinicanortedentalpublichealthpngclipartremovebgpreview.png"
+            alt="Treatment"
+          />
+        </div>
+        <span class="step-label">Complete Treatment</span>
+      </div>
+      <div class="process-step" data-step="5">
+        <div class="icon-container">
+          <img
+            src="https://icons.assets-landingi.com/icon_a67fbc147a36b765bd6036cec39a5b76fbf5b539.svg"
+            alt="Smile Again"
+          />
+        </div>
+        <span class="step-label">Smile Again</span>
+      </div>
+    </div>
+    <!-- Step Details -->
+    <div class="step-details">
+      <h3 id="stepTitle">Step 1: Book Your Free Consultation</h3>
+      <p id="stepDesc">
+        Get a personalized treatment plan from our experts – no commitment, just
+        clarity.
+      </p>
+    </div>
+  </div>
+  <div class="cta-container">
+    <a href="#pOy2rurCohGz7re9n2lPuy3iBgzsA7FF" class="cta-button">
+      Get Your Price in 5 Minutes
+    </a>
+  </div>
+</section>
